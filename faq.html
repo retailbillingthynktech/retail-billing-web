@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="FAQ - Frequently Asked Questions - Retail Billing System">
+    <title>FAQ - Retail Billing System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="assets/retail-billing-horizontal-removebg-preview.png" alt="Retail Billing Logo" class="logo-horizontal">
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" class="nav-link" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" class="nav-link" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" class="nav-link" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" class="nav-link" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                    <div class="language-switcher">
+                        <button class="btn btn-secondary active" data-lang-code="en">EN</button>
+                        <button class="btn btn-secondary" data-lang-code="mr">मराठी</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-lang="faq.title">Frequently Asked Questions</h2>
+                <p class="section-subtitle" data-lang="faq.description">
+                    Answers to common questions about Retail Billing System.
+                </p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="faq-search-wrapper">
+                <div class="faq-search">
+                    <i class="bi bi-search" aria-hidden="true"></i>
+                    <input type="text" id="faqSearch" placeholder="Search for questions..." aria-label="Search FAQ">
+                    <button class="faq-search-clear" id="faqSearchClear" aria-label="Clear search" style="display: none;">
+                        <i class="bi bi-x-lg" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="faq-container">
+                <div class="faq-item" data-category="general">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-question-circle" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.free.q">Is the app free?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.free.a">Yes, the basic version is free to download and use.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="general">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-wifi-off" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.offline.q">Does it work offline?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.offline.a">Yes, the app works without internet connection for most features.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="compliance">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-shield-check" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.gst.q">Is GST compliance included?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.gst.a">Yes, the app is fully GST compliant for Indian businesses.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="data">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-cloud-arrow-up" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.backup.q">How do I backup my data?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.backup.a">The app automatically syncs data when online, or you can export reports manually.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="technical">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-phone" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.android.q">What Android versions are supported?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.android.a">The app supports Android 6.0 and above.</p>
+                    </div>
+                </div>
+
+                <!-- Additional FAQ Items -->
+                <div class="faq-item" data-category="features">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-mic-fill" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.voiceAssistant.q">How does the AI Voice Assistant work?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.voiceAssistant.a">The AI Voice Assistant allows you to add items to inventory and process sales using voice commands. Simply speak naturally, and the app will recognize product names, quantities, and prices. It works offline and supports multiple languages.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="features">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.pdfInvoice.q">Can I print or share invoices as PDF?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.pdfInvoice.a">Yes, you can generate invoices and share them as PDF files. The app also supports printing invoices directly from your device or sharing them via email, WhatsApp, or other messaging apps.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="inventory">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-upc-scan" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.barcode.q">Does the app support barcode scanning?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.barcode.a">Yes, the app includes barcode scanning functionality to quickly add items to inventory and process sales. You can scan product barcodes using your device's camera.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="data">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-graph-up" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.reports.q">What kind of reports can I generate?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.reports.a">The app provides comprehensive sales reports with date filters, revenue tracking, inventory reports, customer statements, GST reports, and transaction history. All reports can be exported for your records.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="support">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-headset" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.support.q">How can I get support if I have issues?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.support.a">You can contact our support team via email at support@retailbilling.ltd or support@thynktech.ltd, or call us at +91 080696 40559 (Mon-Sat: 9 AM - 6 PM IST). You can also visit our Help Center or report issues directly from the app.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="technical">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-icon">
+                            <i class="bi bi-database" aria-hidden="true"></i>
+                        </span>
+                        <span class="faq-question-text" data-lang="faq.questions.dataSecurity.q">Is my data secure?</span>
+                        <span class="faq-toggle">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang="faq.questions.dataSecurity.a">Yes, your data is stored securely on your device. The app uses local storage for data management, and you have full control over your information. Data syncs securely when you're online, and all transactions are encrypted.</p>
+                    </div>
+                </div>
+
+                <!-- No Results Message -->
+                <div class="faq-no-results" id="faqNoResults" style="display: none;">
+                    <i class="bi bi-search" aria-hidden="true"></i>
+                    <p>No questions found matching your search. Try different keywords.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/retail-billing-bag-bgless.png" alt="Retail Billing Icon"
+                            class="logo-icon footer-logo-icon">
+                        <div class="logo-text-wrapper footer-logo-text">
+                            <span class="logo-text-retail footer-retail">Retail</span>
+                            <span class="logo-text-billing footer-billing">Billing</span>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-lang="footer.description">
+                        Complete retail billing solution for modern businesses. GST compliant, feature-rich, and easy to
+                        use.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html" data-lang="footer.links.privacy">Privacy Policy</a></li>
+                        <li><a href="terms.html" data-lang="footer.links.terms">Terms of Service</a></li>
+                        <li><a href="refund.html" data-lang="footer.links.refund">Refund Policy</a></li>
+                        <li><a href="license.html" data-lang="footer.links.license">License Agreement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.support">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="help.html" data-lang="footer.links.help">Help Center</a></li>
+                        <li><a href="docs.html" data-lang="footer.links.docs">Documentation</a></li>
+                        <li><a href="faq.html" data-lang="footer.links.faq">FAQ</a></li>
+                        <li><a href="report.html" data-lang="footer.links.report">Report Issue</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="thynktech.ltd" target="_blank" class="footer-credit">
+                    <p data-lang="footer.copyright">&copy;2025 ThynkTech India. All rights reserved</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="faq.js"></script>
+</body>
+
+</html>

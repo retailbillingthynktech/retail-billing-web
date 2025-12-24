@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Report Issue - Retail Billing System Support">
+    <title>Report Issue - Retail Billing System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="assets/retail-billing-horizontal-removebg-preview.png" alt="Retail Billing Logo" class="logo-horizontal">
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" class="nav-link" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" class="nav-link" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" class="nav-link" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" class="nav-link" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                    <div class="language-switcher">
+                        <button class="btn btn-secondary active" data-lang-code="en">EN</button>
+                        <button class="btn btn-secondary" data-lang-code="mr">मराठी</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Report Issue Section -->
+    <section class="report-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-lang="report.title">Report an Issue</h2>
+                <p class="section-subtitle" data-lang="report.description">
+                    Help us improve by reporting bugs or issues you encounter.
+                </p>
+            </div>
+
+            <div class="report-content">
+                <div class="report-card">
+                    <div class="report-icon">
+                        <i class="bi bi-bug" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="report-title" data-lang="report.sections.howTo.title">How to Report</h3>
+                    <p class="report-description" data-lang="report.sections.howTo.desc">
+                        Send detailed information about the issue to our support team including:
+                    </p>
+                    <div class="report-list">
+                        <div class="report-item">
+                            <i class="bi bi-check-circle" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.howTo.appVersion">App Version:</strong>
+                                <span data-lang="report.sections.howTo.items.0">App version</span>
+                                <p data-lang="report.sections.howTo.appVersionDesc">Include the version number from Settings → About</p>
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <i class="bi bi-check-circle" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.howTo.androidVersion">Android Version:</strong>
+                                <span data-lang="report.sections.howTo.items.1">Android version</span>
+                                <p data-lang="report.sections.howTo.androidVersionDesc">Found in Settings → About Phone → Android Version</p>
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <i class="bi bi-check-circle" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.howTo.stepsToReproduce">Steps to Reproduce:</strong>
+                                <span data-lang="report.sections.howTo.items.2">Steps to reproduce the issue</span>
+                                <p data-lang="report.sections.howTo.stepsToReproduceDesc">Provide detailed step-by-step instructions</p>
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <i class="bi bi-check-circle" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.howTo.screenshots">Screenshots:</strong>
+                                <span data-lang="report.sections.howTo.items.3">Screenshots if possible</span>
+                                <p data-lang="report.sections.howTo.screenshotsDesc">Attach screenshots or screen recordings if available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="report-contact">
+                        <p><strong data-lang="report.sections.howTo.emailReport">Email your report to:</strong></p>
+                        <div class="report-email-links">
+                            <a href="mailto:support@retailbilling.ltd?subject=Bug Report" class="btn btn-primary">
+                                <i class="bi bi-envelope" aria-hidden="true"></i>
+                                support@retailbilling.ltd
+                            </a>
+                            <a href="mailto:support@thynktech.ltd?subject=Bug Report" class="btn btn-secondary">
+                                <i class="bi bi-envelope" aria-hidden="true"></i>
+                                support@thynktech.ltd
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="report-card">
+                    <div class="report-icon">
+                        <i class="bi bi-clock-history" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="report-title" data-lang="report.sections.response.title">Response Time</h3>
+                    <p class="report-description" data-lang="report.sections.response.desc">
+                        We aim to respond to all reports within 24-48 hours.
+                    </p>
+                    <div class="report-info">
+                        <div class="info-item">
+                            <i class="bi bi-hourglass-split" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.response.initialResponse">Initial Response:</strong>
+                                <p data-lang="report.sections.response.initialResponseDesc">Within 24 hours during business days</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-calendar-check" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.response.resolutionTime">Resolution Time:</strong>
+                                <p data-lang="report.sections.response.resolutionTimeDesc">Depends on issue complexity, typically 2-5 business days</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-priority-high" aria-hidden="true"></i>
+                            <div>
+                                <strong data-lang="report.sections.response.priorityIssues">Priority Issues:</strong>
+                                <p data-lang="report.sections.response.priorityIssuesDesc">Critical bugs are prioritized and addressed immediately</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="report-card report-card-highlight">
+                    <div class="report-icon">
+                        <i class="bi bi-lightbulb" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="report-title" data-lang="report.sections.features.title">Feature Requests</h3>
+                    <p class="report-description" data-lang="report.sections.features.desc">
+                        Use the same contact for suggesting new features or improvements.
+                    </p>
+                    <div class="report-info">
+                        <p data-lang="report.sections.features.description">We value your feedback and suggestions! If you have ideas for new features or improvements, please share them with us.</p>
+                        <ul>
+                            <li data-lang="report.sections.features.items.0">Describe the feature you'd like to see</li>
+                            <li data-lang="report.sections.features.items.1">Explain how it would benefit your workflow</li>
+                            <li data-lang="report.sections.features.items.2">Provide any examples or use cases</li>
+                            <li data-lang="report.sections.features.items.3">We review all suggestions and prioritize based on user demand</li>
+                        </ul>
+                        <div class="report-contact">
+                            <a href="mailto:support@retailbilling.ltd?subject=Feature Request" class="btn btn-primary">
+                                <i class="bi bi-envelope" aria-hidden="true"></i>
+                                <span data-lang="report.sections.features.submitBtn">Submit Feature Request</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/retail-billing-bag-bgless.png" alt="Retail Billing Icon"
+                            class="logo-icon footer-logo-icon">
+                        <div class="logo-text-wrapper footer-logo-text">
+                            <span class="logo-text-retail footer-retail">Retail</span>
+                            <span class="logo-text-billing footer-billing">Billing</span>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-lang="footer.description">
+                        Complete retail billing solution for modern businesses. GST compliant, feature-rich, and easy to
+                        use.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html" data-lang="footer.links.privacy">Privacy Policy</a></li>
+                        <li><a href="terms.html" data-lang="footer.links.terms">Terms of Service</a></li>
+                        <li><a href="refund.html" data-lang="footer.links.refund">Refund Policy</a></li>
+                        <li><a href="license.html" data-lang="footer.links.license">License Agreement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.support">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="help.html" data-lang="footer.links.help">Help Center</a></li>
+                        <li><a href="docs.html" data-lang="footer.links.docs">Documentation</a></li>
+                        <li><a href="faq.html" data-lang="footer.links.faq">FAQ</a></li>
+                        <li><a href="report.html" data-lang="footer.links.report">Report Issue</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="thynktech.ltd" target="_blank" class="footer-credit">
+                    <p data-lang="footer.copyright">&copy;2025 ThynkTech India. All rights reserved</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Complete Retail Billing Solution for Your Business - GST Compliant, Inventory Management, Invoice Generation, and More">
+    <title>Retail Billing System - Complete Business Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="assets/retail-billing-horizontal-removebg-preview.png" alt="Retail Billing Logo" class="logo-horizontal">
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="features.html" class="nav-link">Features</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="download.html" class="nav-link">Download</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="language-switcher">
+                        <button class="btn btn-secondary active" data-lang-code="en">EN</button>
+                        <button class="btn btn-secondary" data-lang-code="mr">मराठी</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-lang="hero.title">
+                        Complete Retail Billing Solution for Your Business
+                    </h1>
+                    <p class="hero-subtitle" data-lang="hero.subtitle">
+                        Streamline your retail operations with our comprehensive billing system. Manage inventory,
+                        generate GST-compliant invoices, track sales, and grow your business with powerful analytics and
+                        reporting tools.
+                    </p>
+                    <div class="hero-voice-badge">
+                        <i class="bi bi-mic-fill" aria-hidden="true"></i>
+                        <span data-lang="hero.voiceBadge">AI Voice Assistant: Add inventory & process sales with voice
+                            commands</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="assets/Retail-Billing@V-1.0.1.apk" download="Retail-Billing@V-1.0.1.apk"
+                            class="btn btn-primary btn-large">
+                            <i class="bi bi-download" aria-hidden="true"></i>
+                            <span data-lang="hero.downloadBtn">Download APK</span>
+                        </a>
+                        <a href="features.html" class="btn btn-secondary btn-large">
+                            <span data-lang="hero.learnMoreBtn">Learn More</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label" data-lang="hero.stats.users">Active Users</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label" data-lang="hero.stats.invoices">Invoices Generated</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.8★</span>
+                            <span class="stat-label" data-lang="hero.stats.rating">User Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <img src="assets/Retail_Billing.jpg" alt="Retail Billing App Home Screen"
+                                class="hero-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C300,120 600,0 900,60 C1050,90 1125,105 1200,90 L1200,120 L0,120 Z" fill="#F5F5F5"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Voice Assistant Feature Section -->
+    <section class="voice-assistant-feature">
+        <div class="container">
+            <div class="voice-assistant-content">
+                <div class="voice-assistant-visual">
+                    <div class="voice-animation">
+                        <div class="voice-circle voice-circle-1"></div>
+                        <div class="voice-circle voice-circle-2"></div>
+                        <div class="voice-circle voice-circle-3"></div>
+                        <div class="voice-icon-center">
+                            <i class="bi bi-mic-fill" aria-hidden="true" style="font-size:48px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="voice-assistant-text">
+                    <div class="feature-badge" data-lang="voiceAssistant.badge">🚀 Flagship Feature</div>
+                    <h2 class="section-title" data-lang="voiceAssistant.title">AI-Powered Voice Assistant</h2>
+                    <p class="voice-assistant-description" data-lang="voiceAssistant.description">
+                        Revolutionize your retail operations with our intelligent voice assistant. Add items to
+                        inventory and process sales transactions using simple voice commands - hands-free, fast, and
+                        efficient.
+                    </p>
+                    <div class="voice-features-list">
+                        <div class="voice-feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <div>
+                                <h4 data-lang="voiceAssistant.features.inventory.title">Voice Inventory Management</h4>
+                                <p data-lang="voiceAssistant.features.inventory.desc">Add items to inventory by simply speaking. "Add 50 units of Product X at ₹500 each" -
+                                    that's it!</p>
+                            </div>
+                        </div>
+                        <div class="voice-feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <div>
+                                <h4 data-lang="voiceAssistant.features.sales.title">Voice Sales Processing</h4>
+                                <p data-lang="voiceAssistant.features.sales.desc">Process sales transactions hands-free. "Sell 2 units of Product Y to Customer Z" and
+                                    watch it happen instantly.</p>
+                            </div>
+                        </div>
+                        <div class="voice-feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <div>
+                                <h4 data-lang="voiceAssistant.features.recognition.title">Smart Recognition</h4>
+                                <p data-lang="voiceAssistant.features.recognition.desc">Advanced AI understands natural language, product names, quantities, and prices with
+                                    high accuracy.</p>
+                            </div>
+                        </div>
+                        <div class="voice-feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <div>
+                                <h4 data-lang="voiceAssistant.features.offline.title">Works Offline</h4>
+                                <p data-lang="voiceAssistant.features.offline.desc">Voice assistant works even without internet connection, perfect for busy retail
+                                    environments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-lang="features.title">Powerful Features for Your Business</h2>
+                <p class="section-subtitle" data-lang="features.subtitle">Everything you need to manage your retail operations efficiently</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card feature-card-highlight">
+                    <div class="feature-badge-small" data-lang="features.cards.voice.badge">🚀 Flagship</div>
+                    <div class="feature-icon">
+                        <i class="bi bi-mic-fill" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.voice.title">AI Voice Assistant</h3>
+                    <p class="feature-description" data-lang="features.cards.voice.desc">
+                        Add items to inventory and process sales using voice commands. Hands-free operation with
+                        intelligent speech recognition for faster transactions.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-file-earmark-text" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.invoice.title">Invoice Management</h3>
+                    <p class="feature-description" data-lang="features.cards.invoice.desc">
+                        Create and manage invoices with auto-generated invoice numbers. Support for Cash and Credit
+                        sales, print and share invoices as PDF, with invoice preview functionality.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-box-seam" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.inventory.title">Inventory Management</h3>
+                    <p class="feature-description" data-lang="features.cards.inventory.desc">
+                        Real-time stock tracking, item management with units, prices, and tax rates. Stock alerts and
+                        management with barcode scanning support.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-people" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.customers.title">Party & Customer Management</h3>
+                    <p class="feature-description" data-lang="features.cards.customers.desc">
+                        Add and manage customers/suppliers, track party balances, customer statements, and GST details
+                        management.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-list-check" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.transactions.title">Transaction Types</h3>
+                    <p class="feature-description" data-lang="features.cards.transactions.desc">
+                        Estimate/Quotation, Sale Order, Delivery Challan, Sale Invoice. Convert between transaction
+                        types seamlessly.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-calculator" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.gst.title">GST Compliance</h3>
+                    <p class="feature-description" data-lang="features.cards.gst.desc">
+                        GST calculation and reporting, state of supply tracking, E-way bill support, and
+                        tax-inclusive/exclusive pricing.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-bar-chart-line" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.reports.title">Reports & Analytics</h3>
+                    <p class="feature-description" data-lang="features.cards.reports.desc">
+                        Sales reports with date filters, revenue tracking, business wallet and credit wallet,
+                        transaction history.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-wallet2" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.wallet.title">Business Wallet</h3>
+                    <p class="feature-description" data-lang="features.cards.wallet.desc">
+                        Track business finances, credit management, payment tracking, and financial overview dashboard.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-gear" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="feature-title" data-lang="features.cards.settings.title">Customizable Settings</h3>
+                    <p class="feature-description" data-lang="features.cards.settings.desc">
+                        Transaction settings, invoice customization, tax and discount configurations, payment terms and
+                        due dates.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-lang="about.title">Why Choose Retail Billing System?</h2>
+                    <p class="about-description" data-lang="about.description">
+                        Our Retail Billing System is designed to help small and medium-sized retail businesses
+                        streamline their operations, reduce manual work, and focus on growing their business. With GST
+                        compliance built-in and comprehensive inventory management, you can manage everything from one
+                        powerful application.
+                    </p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop"
+                                alt="GST Compliant Invoice" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.gst.title">GST Compliant</h4>
+                            <p data-lang="about.benefits.gst.desc">Built for Indian businesses with full GST compliance</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=300&fit=crop"
+                                alt="Real-time Inventory Tracking" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.inventory.title">Real-time Inventory</h4>
+                            <p data-lang="about.benefits.inventory.desc">Track your stock levels in real-time with instant updates</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop"
+                                alt="Easy to Use Dashboard" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.easy.title">Easy to Use</h4>
+                            <p data-lang="about.benefits.easy.desc">Intuitive interface - no training required</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop"
+                                alt="Offline Capable" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.offline.title">Offline Capable</h4>
+                            <p data-lang="about.benefits.offline.desc">Works without internet connection</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop"
+                                alt="Secure Data Management" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.secure.title">Secure & Reliable</h4>
+                            <p data-lang="about.benefits.secure.desc">Your data is safe with our secure management system</p>
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=300&fit=crop"
+                                alt="24/7 Customer Support" class="benefit-image">
+                        </div>
+                        <div class="benefit-content">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <h4 data-lang="about.benefits.support.title">24/7 Support</h4>
+                            <p data-lang="about.benefits.support.desc">Round-the-clock customer support available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <!-- <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">See It In Action</h2>
+                <p class="section-subtitle">Explore the intuitive interface designed for efficiency</p>
+            </div>
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <div class="screenshot-image-wrapper">
+                        <img src="assets/dashboard.png" alt="Dashboard - Retail Billing System" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="screenshot-label">Dashboard</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-image-wrapper">
+                        <img src="assets/voice-assistant.jpg" alt="AI Voice Assistant - Retail Billing System" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="screenshot-label">AI Voice Assistant</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-image-wrapper">
+                        <img src="assets/Invoice.png" alt="Invoice Creation - Retail Billing System" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="screenshot-label">Invoice Creation</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-image-wrapper">
+                        <img src="assets/Inventory.png" alt="Inventory Management - Retail Billing System" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 7h-4V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3H2a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V8a1 1 0 0 0-1-1z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="screenshot-label">Inventory</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-image-wrapper">
+                        <img src="assets/wallet.png" alt="Wallet Management - Retail Billing System" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="4" width="22" height="18" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="screenshot-label">Wallet</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Testimonials Section -->
+    <!-- <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Users Say</h2>
+                <p class="section-subtitle">Trusted by thousands of retailers across India</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "This app has transformed how we manage our retail store. The GST compliance features are excellent, and inventory management is so easy now!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Rajesh Kumar</h4>
+                            <p class="author-role">Store Owner, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Best billing software I've used. The invoice generation is quick, and I love the reporting features. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Priya Sharma</h4>
+                            <p class="author-role">Business Owner, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Customer support is excellent, and the app is very user-friendly. It has all the features we need for our retail business."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Amit Patel</h4>
+                            <p class="author-role">Retailer, Ahmedabad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-info">
+                    <h2 class="section-title" data-lang="download.title">Download Now</h2>
+                    <p class="download-description" data-lang="download.description">
+                        Get started with Retail Billing System today. Download the APK and start managing your business
+                        more efficiently.
+                    </p>
+                    <div class="download-details">
+                        <div class="detail-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <div>
+                                <strong data-lang="download.details.version">Version:</strong> 1.0.1
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            </svg>
+                            <div>
+                                <strong data-lang="download.details.android">Android:</strong> 6.0 and above
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="download-button-wrapper">
+                        <a href="assets/Retail-Billing@V-1.0.1.apk" download="Retail-Billing@V-1.0.1.apk"
+                            class="btn btn-primary btn-large btn-download">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            <span data-lang="download.button">Download APK (v1.0.1)</span>
+                        </a>
+                    </div>
+                    <div class="download-instructions">
+                        <h4 data-lang="download.instructions.title">Installation Instructions:</h4>
+                        <ol>
+                            <li data-lang="download.instructions.steps.0">Download the APK file to your Android device</li>
+                            <li data-lang="download.instructions.steps.1">Enable "Install from Unknown Sources" in Settings</li>
+                            <li data-lang="download.instructions.steps.2">Open the downloaded APK file</li>
+                            <li data-lang="download.instructions.steps.3">Follow the installation prompts</li>
+                            <li data-lang="download.instructions.steps.4">Launch the app and create your account</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-lang="contact.title">Get In Touch</h2>
+                <p class="section-subtitle" data-lang="contact.subtitle">We're here to help you succeed</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-lang="contact.info.email.title">Email</h3>
+                            <a href="mailto:support@retailbilling.ltd">
+                                <p data-lang="contact.info.email.primary">support@retailbilling.ltd</p>
+                            </a>
+                            <a href="mailto:support@thynktech.ltd">
+                                <p data-lang="contact.info.email.secondary">support@thynktech.ltd</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-lang="contact.info.phone.title">Phone</h3>
+                            <p data-lang="contact.info.phone.number">+91 080696 40559</p>
+                            <p data-lang="contact.info.phone.hours">Mon-Sat: 9 AM - 6 PM IST</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+
+                            <h3 data-lang="contact.info.address.title">Address</h3>
+                            <p data-lang="contact.info.address.line1">Office No. 1041, 10th Floor,</p>
+                            <p data-lang="contact.info.address.line2">Gera's Imperium Rise, Hinjawadi Phase 2, Pune - 411057</p>
+                            <p data-lang="contact.info.address.line3">Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Include Bootstrap Icons CSS in your <head> -->
+                <link rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+                <div class="social-links text-center">
+                    <h3 data-lang="contact.social">Follow Us</h3>
+                    <div class="social-icons d-flex justify-content-center gap-3 mt-3">
+                        <a href="https://www.facebook.com/people/Thynk-Technology-India/61577305545397/?rdid=pjPlOqZm1kzJw1bm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GvaYqaDnW%2F" class="social-icon text-dark" aria-label="Facebook">
+                            <i class="bi bi-facebook" id="facebook-icon" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <!-- <a href="#" class="social-icon text-dark" aria-label="Twitter">
+                            <i class="bi bi-twitter" id="x-icon" style="font-size: 1.5rem;"></i>
+                        </a> -->
+                        <a href="https://www.linkedin.com/company/thynk-technology-india" class="social-icon text-dark" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin" id="linkedin-icon" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thynktechnology.india/#" class="social-icon text-dark" aria-label="Instagram">
+                            <i class="bi bi-instagram" id="insta-icon" style="font-size: 1.5rem;"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/retail-billing-bag-bgless.png" alt="Retail Billing Icon"
+                            class="logo-icon footer-logo-icon">
+                        <div class="logo-text-wrapper footer-logo-text">
+                            <span class="logo-text-retail footer-retail">Retail</span>
+                            <span class="logo-text-billing footer-billing">Billing</span>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-lang="footer.description">
+                        Complete retail billing solution for modern businesses. GST compliant, feature-rich, and easy to
+                        use.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html" data-lang="footer.links.privacy">Privacy Policy</a></li>
+                        <li><a href="terms.html" data-lang="footer.links.terms">Terms of Service</a></li>
+                        <li><a href="refund.html" data-lang="footer.links.refund">Refund Policy</a></li>
+                        <li><a href="license.html" data-lang="footer.links.license">License Agreement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.support">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="help.html" data-lang="footer.links.help">Help Center</a></li>
+                        <li><a href="docs.html" data-lang="footer.links.docs">Documentation</a></li>
+                        <li><a href="faq.html" data-lang="footer.links.faq">FAQ</a></li>
+                        <li><a href="report.html" data-lang="footer.links.report">Report Issue</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="thynktech.ltd" target="_blank" class="footer-credit">
+                    <p data-lang="footer.copyright">&copy;2025 ThynkTech India. All rights reserved</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

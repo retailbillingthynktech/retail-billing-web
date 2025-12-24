@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Documentation - Retail Billing System User Guide">
+    <title>Documentation - Retail Billing System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="assets/retail-billing-horizontal-removebg-preview.png" alt="Retail Billing Logo" class="logo-horizontal">
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" class="nav-link" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" class="nav-link" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" class="nav-link" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" class="nav-link" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                    <div class="language-switcher">
+                        <button class="btn btn-secondary active" data-lang-code="en">EN</button>
+                        <button class="btn btn-secondary" data-lang-code="mr">मराठी</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Documentation Section -->
+    <section class="docs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-lang="docs.title">Documentation</h2>
+                <p class="section-subtitle" data-lang="docs.description">
+                    Comprehensive user guide and API documentation for Retail Billing System.
+                </p>
+            </div>
+
+            <div class="docs-grid">
+                <div class="docs-card">
+                    <div class="docs-icon">
+                        <i class="bi bi-book" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="docs-title" data-lang="docs.sections.manual.title">User Manual</h3>
+                    <p class="docs-description" data-lang="docs.sections.manual.desc">
+                        Detailed instructions for using all features of the application.
+                    </p>
+                    <div class="docs-content">
+                        <ul>
+                            <li data-lang="docs.sections.manual.items.0">Installation and setup guide</li>
+                            <li data-lang="docs.sections.manual.items.1">Creating and managing inventory</li>
+                            <li data-lang="docs.sections.manual.items.2">Invoice creation and management</li>
+                            <li data-lang="docs.sections.manual.items.3">Customer and party management</li>
+                            <li data-lang="docs.sections.manual.items.4">GST configuration and compliance</li>
+                            <li data-lang="docs.sections.manual.items.5">Using AI Voice Assistant</li>
+                            <li data-lang="docs.sections.manual.items.6">Generating reports and analytics</li>
+                            <li data-lang="docs.sections.manual.items.7">Business wallet management</li>
+                        </ul>
+                        <div class="docs-download">
+                            <a href="#" class="btn btn-secondary">
+                                <i class="bi bi-download" aria-hidden="true"></i>
+                                <span data-lang="docs.sections.manual.downloadBtn">Download PDF Guide</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="docs-card">
+                    <div class="docs-icon">
+                        <i class="bi bi-code-slash" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="docs-title" data-lang="docs.sections.api.title">API Reference</h3>
+                    <p class="docs-description" data-lang="docs.sections.api.desc">
+                        Technical documentation for developers integrating with our system.
+                    </p>
+                    <div class="docs-content">
+                        <ul>
+                            <li data-lang="docs.sections.api.items.0">REST API endpoints</li>
+                            <li data-lang="docs.sections.api.items.1">Authentication and authorization</li>
+                            <li data-lang="docs.sections.api.items.2">Request and response formats</li>
+                            <li data-lang="docs.sections.api.items.3">Error handling</li>
+                            <li data-lang="docs.sections.api.items.4">Rate limiting</li>
+                            <li data-lang="docs.sections.api.items.5">Webhook integration</li>
+                            <li data-lang="docs.sections.api.items.6">SDK and code examples</li>
+                        </ul>
+                        <div class="docs-download">
+                            <a href="#" class="btn btn-secondary">
+                                <i class="bi bi-github" aria-hidden="true"></i>
+                                <span data-lang="docs.sections.api.viewBtn">View API Docs</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="docs-card">
+                    <div class="docs-icon">
+                        <i class="bi bi-journal-text" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="docs-title" data-lang="docs.sections.notes.title">Release Notes</h3>
+                    <p class="docs-description" data-lang="docs.sections.notes.desc">
+                        Information about new features, bug fixes, and updates.
+                    </p>
+                    <div class="docs-content">
+                        <div class="release-notes">
+                            <div class="release-item">
+                                <h4 data-lang="docs.sections.notes.version">Version 1.0.1</h4>
+                                <ul>
+                                    <li data-lang="docs.sections.notes.versionItems.0">Initial release</li>
+                                    <li data-lang="docs.sections.notes.versionItems.1">AI Voice Assistant integration</li>
+                                    <li data-lang="docs.sections.notes.versionItems.2">GST compliance features</li>
+                                    <li data-lang="docs.sections.notes.versionItems.3">Invoice management system</li>
+                                    <li data-lang="docs.sections.notes.versionItems.4">Inventory tracking</li>
+                                </ul>
+                            </div>
+                            <div class="release-item">
+                                <h4 data-lang="docs.sections.notes.upcoming">Upcoming Features</h4>
+                                <ul>
+                                    <li data-lang="docs.sections.notes.upcomingItems.0">Multi-language support</li>
+                                    <li data-lang="docs.sections.notes.upcomingItems.1">Cloud backup integration</li>
+                                    <li data-lang="docs.sections.notes.upcomingItems.2">Advanced analytics dashboard</li>
+                                    <li data-lang="docs.sections.notes.upcomingItems.3">Mobile app for iOS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="docs-card docs-card-highlight">
+                    <div class="docs-icon">
+                        <i class="bi bi-lightbulb" aria-hidden="true" style="font-size:48px"></i>
+                    </div>
+                    <h3 class="docs-title" data-lang="docs.sections.practices.title">Best Practices</h3>
+                    <p class="docs-description" data-lang="docs.sections.practices.desc">
+                        Tips and recommendations for optimal use of the software.
+                    </p>
+                    <div class="docs-content">
+                        <ul>
+                            <li data-lang="docs.sections.practices.items.0"><strong>Regular Backups:</strong> Export your data regularly to prevent loss</li>
+                            <li data-lang="docs.sections.practices.items.1"><strong>GST Configuration:</strong> Set up GST details correctly from the start</li>
+                            <li data-lang="docs.sections.practices.items.2"><strong>Inventory Management:</strong> Keep stock levels updated for accurate reporting</li>
+                            <li data-lang="docs.sections.practices.items.3"><strong>Invoice Numbering:</strong> Use consistent invoice numbering for better tracking</li>
+                            <li data-lang="docs.sections.practices.items.4"><strong>Customer Data:</strong> Maintain accurate customer information for better service</li>
+                            <li data-lang="docs.sections.practices.items.5"><strong>Voice Assistant:</strong> Use voice commands for faster data entry</li>
+                            <li data-lang="docs.sections.practices.items.6"><strong>Reports:</strong> Review reports regularly to track business performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/retail-billing-bag-bgless.png" alt="Retail Billing Icon"
+                            class="logo-icon footer-logo-icon">
+                        <div class="logo-text-wrapper footer-logo-text">
+                            <span class="logo-text-retail footer-retail">Retail</span>
+                            <span class="logo-text-billing footer-billing">Billing</span>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-lang="footer.description">
+                        Complete retail billing solution for modern businesses. GST compliant, feature-rich, and easy to
+                        use.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.quickLinks">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-lang="nav.home">Home</a></li>
+                        <li><a href="features.html" data-lang="nav.features">Features</a></li>
+                        <li><a href="about.html" data-lang="nav.about">About</a></li>
+                        <li><a href="download.html" data-lang="nav.download">Download</a></li>
+                        <li><a href="contact.html" data-lang="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html" data-lang="footer.links.privacy">Privacy Policy</a></li>
+                        <li><a href="terms.html" data-lang="footer.links.terms">Terms of Service</a></li>
+                        <li><a href="refund.html" data-lang="footer.links.refund">Refund Policy</a></li>
+                        <li><a href="license.html" data-lang="footer.links.license">License Agreement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-lang="footer.sections.support">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="help.html" data-lang="footer.links.help">Help Center</a></li>
+                        <li><a href="docs.html" data-lang="footer.links.docs">Documentation</a></li>
+                        <li><a href="faq.html" data-lang="footer.links.faq">FAQ</a></li>
+                        <li><a href="report.html" data-lang="footer.links.report">Report Issue</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="thynktech.ltd" target="_blank" class="footer-credit">
+                    <p data-lang="footer.copyright">&copy;2025 ThynkTech India. All rights reserved</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
